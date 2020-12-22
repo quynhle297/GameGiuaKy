@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffddee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HighScoreActivity">
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Game Instructions"
+        android:textSize="30dp"
+        android:textColor="#091f36"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="Trò chơi kết thúc khi:\n
+Máy bay chạm vào bất cứ một con chim nào \n
+Bất cứ con chim nào bay hết chiều ngang màn hình\n
+Máy bay bắn hạ hết đàn chim (68 con chim).\n
+Have fun!!!
+"
+        android:textSize="30dp"
+        android:textColor="#091f36"/>
+
+
+</LinearLayout>
