@@ -28,6 +28,7 @@ public class PlayActivity extends Activity {
         setContentView(gameView);
     }
 
+
     /**
      * Called as part of the activity lifecycle when the user no longer actively interacts with the
      * activity, but it is still visible on screen. The counterpart to {@link #onResume}.

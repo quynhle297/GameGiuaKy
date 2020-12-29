@@ -27,8 +27,8 @@ public class Flight {
         //flight2 = BitmapFactory.decodeResource(res, R.drawable.thunder_plane);
         width = flight1.getWidth();
         height = flight1.getHeight();
-        width /=4;
-        height /=4;
+        width /=6;
+        height /=6;
 //        width *= (int) screenRatioX;
 //        height *= (int)screenRatioY;
 //        Log.d("TAG", String.valueOf((int)screenRatioX));
